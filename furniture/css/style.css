@@ -1,0 +1,126 @@
+body {
+  background-color: white;
+}
+
+/* navbar */
+.navbar {
+  background-color: #e5c4a6;
+  opacity: 0;
+  transition: 2s;
+}
+
+.navbar .container .navbar-nav .active {
+  color: white;
+}
+
+.navbar.nMuncul {
+  opacity: 1;
+}
+
+#navbarNav ul li a:hover {
+  color: rgb(255, 255, 255);
+  transition: 1.5s;
+}
+/* end navbar */
+
+/* carousel */
+.carousel {
+  margin-top: 95px;
+  opacity: 0;
+  transform: translate(-50px, 0);
+  transition: 1.2s;
+}
+.carousel.cMuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+/* end carousel */
+
+/* best seller */
+section.best-seller {
+  margin-top: 50px;
+  background-color: #e5c4a6;
+}
+
+section.best-seller .card {
+  opacity: 0;
+  transform: translate(-50px, 0);
+  transition: 1.5s;
+}
+
+section.best-seller .card.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+/* end best seller */
+
+/* produk */
+.produk .card {
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 1.5s;
+}
+
+.produk .card.tampil {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+/* end-produk */
+
+/* about */
+section.about {
+  margin-top: 50px;
+  background-color: #e5c4a6;
+}
+
+.about-isi {
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 1.5s;
+}
+
+.about-isi.aTampil {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* .gambar-ab,
+.text {
+  opacity: 0;
+  transform: translate(-50px, 0) rotate(15deg);
+  transition: 2s;
+}
+
+.text {
+  transform: translate(50px, 0) rotate(-15deg);
+}
+
+.gambar-ab.gMuncul,
+.text.tMuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+} */
+
+section.about p {
+  text-align: justify;
+}
+/* end about */
+
+/* contact us */
+section.contact .container button.btn {
+  background-color: #e5c4a6;
+}
+section.contact .container .info a {
+  text-decoration: none;
+}
+/* end contact us */
+
+/* footer */
+footer {
+  background-color: #e5c4a6;
+}
+
+footer a {
+  text-decoration: none;
+}
+/* end footer */
