@@ -3,6 +3,10 @@ Portofolio Projek Furniture Landing Page
 ----------------------------------------
 - Landing Page Furniture yaitu sebuah profil dari sebuah perusahaan furniture dengan tujuan yaitu memberikan sebuah informasi mengenai perusahaan dan memberikan katalog penjualan furniture.
 ----------------------------------------
+# BAHASA PEMROGRAMAN
+- HTML
+- CSS
+---
 # Fitur yang ada di Landing Page Furniture yaitu :
 # Menu Home
 - Produk terbaru
